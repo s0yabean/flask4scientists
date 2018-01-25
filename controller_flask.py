@@ -63,7 +63,10 @@ def index():
         return render_template("view_input.html", form = form)
     
 if __name__ == '__main__':
-    app.run(debug = True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True, use_reloader=True)
+    
 
 
 
