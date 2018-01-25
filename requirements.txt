@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 Flask==0.10.1
 gunicorn==19.3.0
-flask_cors
-=======
-Flask
-gunicorn
-psycopg2==2.4.4
-flask_cors
->>>>>>> f5e85712feac58222a546b8edcf65e943cb4539b
+
+
+
